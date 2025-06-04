@@ -34,8 +34,8 @@ const ollama = {
     { commitType, customMessageConvention, language }
   ) => {
     return (
-      `Write a professional git commit message for my Masters thesis based on the a diff below in Latex \n` +
-      "Do not preface the commit with anything, use the present tense, return the full sentence, and use the conventional commits specification (<Relevant files>: <subject>). Remember that ADS refers to 'autonomous driving system' and LLM to 'large language model'." +
+      `Write a brief professional git commit message for my masters thesis based on the Latex diff below\n` +
+      "Do not preface the commit with anything, use the present tense, return the full sentence, and use the conventional commits specification (<Relevant files>: <subject>). Remember that ADS refers to 'autonomous driving system' and LLM to 'large language model'. Prioritize being succinct. Never use personal forms." +
       "\n\n" +
       diff
     );
